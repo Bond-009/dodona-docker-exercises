@@ -1,8 +1,8 @@
 {
   "description": {
     "names": {
-      "en": "Echo function",
-      "nl": "Echofunctie"
+      "en": "Dockerfile",
+      "nl": "Dockerfile"
     }
   },
   "labels": [
