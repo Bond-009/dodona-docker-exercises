@@ -1,6 +1,7 @@
 {
   "evaluation": {
-    "handler": "docker"
+    "handler": "docker",
+    "network_enabled": true
   },
   "programming_language": "docker"
 }
