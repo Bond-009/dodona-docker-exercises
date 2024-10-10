@@ -1,7 +1,9 @@
 {
   "evaluation": {
     "handler": "docker",
-    "network_enabled": true
+    "network_enabled": true,
+    "time_limit": 120,
+    "memory_limit": 2000000
   },
   "programming_language": "docker"
 }
