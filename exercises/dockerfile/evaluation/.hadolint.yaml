@@ -1,3 +1,4 @@
+no-fail: false
 failure-threshold: warning
 label-schema:
   org.opencontainers.image.description: text
