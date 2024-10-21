@@ -1,0 +1,12 @@
+no-fail: false
+failure-threshold: error
+label-schema:
+  org.opencontainers.image.title: text
+  org.opencontainers.image.description: text
+  org.opencontainers.image.source: text
+  org.opencontainers.image.revision: text
+  org.opencontainers.image.licenses: text
+  org.opencontainers.image.vendor: text
+override:
+  error:
+    - DL3049
