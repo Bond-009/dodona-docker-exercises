@@ -1,4 +1,5 @@
 [
-    { "type": "file", "path": "/environment.yml" },
+    { "type": "directory", "path": "/course" },
+    { "type": "file", "path": "/environment.yml", "compare": "environment.yml" },
     { "type": "directory", "path": "/usr/miniconda3/envs/pipeline-tools-1.0.0" }
 ]
