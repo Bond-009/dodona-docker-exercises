@@ -1,6 +1,6 @@
 FROM alpine:3.20
 
-RUN useradd -ms /bin/bash runner
+RUN adduser -Sh /home/runner runner
 USER runner
 WORKDIR /home/runner
 COPY hello.sh .

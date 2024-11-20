@@ -4,6 +4,6 @@
     "files": [
         { "type": "directory", "path": "/home/runner" },
         { "type": "file", "path": "/home/runner/hello.sh", "compare": "hello.sh" },
-        { "type": "file", "path": "/etc/os-release", "regex": "^ID=alpine$" }
+        { "type": "file", "path": "/etc/os-release", "regex": "^ID=\"alpine\"$" }
     ]
 }
