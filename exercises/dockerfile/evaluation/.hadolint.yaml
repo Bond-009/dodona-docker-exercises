@@ -1,7 +1,0 @@
-no-fail: false
-failure-threshold: warning
-label-schema:
-  org.opencontainers.image.description: text
-override:
-  info:
-    - DL3008
