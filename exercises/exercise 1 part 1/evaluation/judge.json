@@ -1,9 +1,9 @@
 {
-    "user": "user",
-    "workdir": "/course",
+    "user": "runner",
+    "workdir": "/home/runner",
     "files": [
-        { "type": "directory", "path": "/course" },
-        { "type": "file", "path": "/environment.yml", "compare": "environment.yml", "regex": "^name: pipeline-tools-1\\.0\\.0" },
-        { "type": "directory", "path": "/usr/miniconda3/envs/pipeline-tools-1.0.0" }
+        { "type": "directory", "path": "/home/runner" },
+        { "type": "file", "path": "/home/runner/hello.sh", "compare": "hello.sh" },
+        { "type": "file", "path": "/etc/os-release", "regex": "^ID=alpine$" }
     ]
 }
