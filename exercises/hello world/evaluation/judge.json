@@ -1,6 +1,11 @@
 {
+    "from": {
+        "image": "alpine",
+        "tag": "3.21"
+    },
     "user": "runner",
     "workdir": "/home/runner",
+    "comments": [ "docker run" ],
     "files": [
         { "type": "directory", "path": "/home/runner" },
         { "type": "file", "path": "/home/runner/hello.sh", "compare": "hello.sh" },
