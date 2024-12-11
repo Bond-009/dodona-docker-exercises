@@ -4,5 +4,9 @@
       "en": "Hello World",
       "nl": "Hello World"
     }
+  },
+  "internals": {
+    "token": "mxYiijfg3_5NiITvMVPfdqDT77mJKwpXwH7kAUEqPwgwXudefuFeecyxPm53XYDH",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
